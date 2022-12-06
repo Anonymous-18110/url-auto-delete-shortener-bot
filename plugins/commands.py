@@ -247,7 +247,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('JOIN', url='https://t.me/+MQr7_5zLE1k1MTk1') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('JOIN MOVIE CHANNEL', url='https://t.me/+n5Y_XS-uBBsyNWZl') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
