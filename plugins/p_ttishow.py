@@ -38,7 +38,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('📢 UᎮDΛTΞS 📢', url='https://t.me/greymatter_bots')
+            InlineKeyboardButton('MAIN CHANNEL', url='https://t.me/+MQr7_5zLE1k1MTk1')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -55,7 +55,7 @@ async def save_group(bot, message):
                         pass
                 temp.MELCOW['welcome'] = await message.reply_video(
                 video="https://telegra.ph/file/03691465baa774e46506d.mp4",                                               
-                                                 caption=f'<b>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ᴇᴛᴄ. ꜰʀᴏᴍ ʜᴇʀᴇ. ᴇɴᴊᴏʏ😉.\n\n<b>┏≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>\n┣ <b>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ›› @greymatter_bots</b></code>\n<b>┗≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>',
+                                                 caption=f'<b>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ᴇᴛᴄ. ꜰʀᴏᴍ ʜᴇʀᴇ. ᴇɴᴊᴏʏ😉.\n\n<b>┏≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>\n┣ <b>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ›› @Cinema_Wallah</b></code>\n<b>┗≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>',
                                                  reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('➡️ɢʀᴏᴜᴘ ʀᴜʟᴇs⬅️', url='http://t.me/MissRose_bot?start=rules_-1001820559841') ] ] )
                 )
 
@@ -226,7 +226,7 @@ async def unban_a_user(bot, message):
     except PeerIdInvalid:
         return await message.reply("This is an invalid user, make sure ia have met him before.")
     except IndexError:
-        return await message.reply("Thismight be a channel, make sure its a user.")
+        return await message.reply("This might be a channel, make sure its a user.")
     except Exception as e:
         return await message.reply(f'Error - {e}')
     else:
