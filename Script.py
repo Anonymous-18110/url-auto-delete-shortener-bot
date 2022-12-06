@@ -12,9 +12,13 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://du-link.in/ref/mj18110')
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Mr Provider I can Provide You Movies and Web Series 😇.</b>
+    START_TXT = environ.get("START_TXT", '''Hello {},
 
-<i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
+My name is <a href=https://t.me/{}>{}</a>!
+
+<b>I can provide Movies. Just send me a movie name and i will provide you.. 🥰
+
+Just Add me to Your Group As Admin and enjoy..😍😍</b>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Cinema_Wallah><b>Search Bot</b></a>\n
